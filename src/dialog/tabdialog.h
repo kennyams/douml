@@ -26,6 +26,7 @@ public:
     void setTabEnabled(QWidget *w, bool isEnabled);
 signals:
     void helpButtonPressed();
+    void currentChanged(QWidget *);
 public slots:
 private:
 protected:
